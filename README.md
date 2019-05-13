@@ -1,5 +1,5 @@
 # SteamStorefrontAPI
-[![nuget](https://img.shields.io/nuget/v/SteamStorefrontAPI.svg)](https://www.nuget.org/packages/SteamStorefrontAPI)
+[![nuget](https://img.shields.io/nuget/v/SteamStorefrontAPI.NETStandard.svg)](https://www.nuget.org/packages/SteamStorefrontAPI.NETStandard)
 
 The SteamStorefrontAPI is a .NET wrapper for the steam storefront api which is exposed via Steam Big Picture. The API is not officially available or documented, all data in this library was either compiled by trial and error from the [inofficial api documentation](https://wiki.teamfortress.com/wiki/User:RJackson/StorefrontAPI), and is therefore provided as-is.
 
