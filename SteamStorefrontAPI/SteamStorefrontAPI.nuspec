@@ -6,11 +6,16 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://github.com/mmuffins/SteamStorefrontAPI/blob/master/LICENSE.md</licenseUrl>
-    <projectUrl>https://github.com/mmuffins/SteamStorefrontAPI</projectUrl>
+    <licenseUrl>https://github.com/Vasar007/SteamStorefrontAPI/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>$projectUrl$</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>$copyright$</copyright>
-    <tags>steam steam-api api-wrapper valve</tags>
+    <tags>$tags$</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
   </metadata>
 </package>
