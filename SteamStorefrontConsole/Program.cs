@@ -1,10 +1,8 @@
-﻿using SteamStorefrontAPI;
-using SteamStorefrontAPI.Classes;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using SteamStorefrontAPI;
+using SteamStorefrontAPI.Classes;
 
 
 namespace SteamStorefrontConsole

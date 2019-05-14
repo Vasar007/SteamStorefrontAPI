@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Globalization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
@@ -25,9 +21,6 @@ namespace SteamStorefrontAPI.Classes
 
         [JsonProperty("layout")]
         public string Layout { get; set; }
-
-        //[JsonProperty("status")]
-        //public int Status { get; set; }
 
         public FeaturedApps()
         {
