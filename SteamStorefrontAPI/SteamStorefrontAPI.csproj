@@ -2,17 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
     <Company />
     <PackageId>SteamStorefrontAPI.NETStandard</PackageId>
     <Authors>Michael Kellner, Vasily Vasilyev</Authors>
     <Description>SteamStorefrontAPI port to .NET Standard 2.0.
 
-The SteamStorefrontAPI is a .NET wrapper for the steam storefront api which is exposed via Steam Big Picture. The API is not officially available or documented, all data in this library was either compiled by trial and error from the inofficial api documentation, and is therefore provided as-is.</Description>
+The SteamStorefrontAPI is a .NET wrapper for the steam storefront api which is exposed via Steam Big Picture.
+
+The Steam API is not officially available or documented. So, all data in this library was either collected by trial and error from unofficial API documentation, and is therefore provided as-is.</Description>
     <RepositoryUrl></RepositoryUrl>
     <PackageTags>api-wrapper, steam-api, valve, steam</PackageTags>
     <Product>SteamStorefrontAPI.NETStandard</Product>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Vasar007/SteamStorefrontAPI</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
